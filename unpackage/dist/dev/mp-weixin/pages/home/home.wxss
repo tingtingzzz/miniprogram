@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.search {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+}
+swiper {
+  height: 330rpx;
+}
+swiper .swiper-item,
+swiper image {
+  width: 100%;
+  height: 100%;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+.nav-list .nav-item {
+  width: 128rpx;
+  height: 140rpx;
+}
+.nav-list .nav-item image {
+  width: 100%;
+  height: 100%;
+}
+.floor-title image {
+  width: 100%;
+  height: 59rpx;
+}
+.floor-content {
+  display: flex;
+  padding: 6px 0;
+}
+.floor-content .rigth {
+  margin-left: 6px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+

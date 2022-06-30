@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #ea4350;
+}
+.search-bar .search-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 35px;
+  border-radius: 30px;
+  font-size: 12px;
+  background-color: #fff;
+}
+
