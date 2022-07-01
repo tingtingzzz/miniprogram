@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* 水平间距 */
 /* 水平间距 */
+view {
+  background-color: #f5f5f5;
+}
 .search-bar {
   display: flex;
   justify-content: center;

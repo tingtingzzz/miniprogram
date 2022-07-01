@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+view {
+  background-color: #f5f5f5;
+}
+swiper {
+  height: 750rpx;
+}
+swiper .swiper-item,
+swiper image {
+  height: 100%;
+  width: 100%;
+}
+.info {
+  padding: 6px;
+}
+.info .price {
+  color: #ea4350;
+}
+.info .mid {
+  display: flex;
+  margin: 6px 0;
+  font-size: 12px;
+}
+.info .mid .favi {
+  border-left: 1px solid #eee;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+.info .yf {
+  font-size: 10px;
+  color: gray;
+}
+.goods-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+

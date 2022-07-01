@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App'
+import store from './store/store.js'
 //  配置请求包
 // 1. 引入
 import {
@@ -31,6 +32,7 @@ Vue.config.productionTip = false
 App.mpType = 'app'
 
 const app = new Vue({
-	...App
+	...App,
+	store
 })
 app.$mount()

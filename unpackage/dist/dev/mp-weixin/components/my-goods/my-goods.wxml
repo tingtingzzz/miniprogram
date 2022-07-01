@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['qwe',['$event']]]]]}}" bindtap="__e"><view class="goods-item"><view class="left"><image src="{{goods.goods_small_logo||'../static/images/empty.png'}}"></image></view><view class="right"><view class="title">{{goods.goods_name}}</view><view class="price">{{"￥"+goods.goods_price}}</view></view></view></view>

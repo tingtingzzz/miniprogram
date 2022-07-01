@@ -6,7 +6,7 @@
 		<view class="content-box">
 			<!-- 左 -->
 			<scroll-view class="left" scroll-y="true" :style="{height:hw + 'px'}">
-				<view :class="[current===index ? 'active':'']" v-for="(item,index) in cateList" :key="idnex"
+				<view :class="[current===index ? 'active':'']" v-for="(item,index) in cateList" :key="index"
 					@click="changeCata(item,index)">
 					{{item.cat_name}}
 				</view>
@@ -53,16 +53,13 @@
 			},
 			// 跳转
 			goList(item) {
-				console.log(item);
 				uni.navigateTo({
 					url: '/subpkg/goods-list/goods-list?cat_id=' + item.cat_id
 				})
 			},
 			// 点击分类
 			changeCata(item, i) {
-				console.log(i);
-				console.log(item);
-				this.cateList1 = this.cateList[i].children
+				this.cateList1 = item.children
 				this.current = i
 				this.scroll = this.scroll === 0 ? .1 : 0
 			},

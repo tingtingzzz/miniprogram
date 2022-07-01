@@ -1,4 +1,6 @@
 {
-  "enablePullDownRefresh": false,
-  "usingComponents": {}
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "my-goods": "/components/my-goods/my-goods"
+  }
 }

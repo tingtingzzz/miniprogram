@@ -1,1 +1,1 @@
-<view></view>
+<view><block wx:for="{{goodsList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><my-goods vue-id="{{'36d190a8-1-'+index}}" goods="{{item}}" data-event-opts="{{[['^click',[['goDetail']]]]}}" bind:click="__e" bind:__l="__l"></my-goods></block></block></view>
