@@ -11,6 +11,7 @@ view {
   display: flex;
   padding: 10px 5px;
   border-bottom: 1px solid #f0f0f0;
+  align-items: center;
 }
 .goods-item image {
   width: 100px;
@@ -18,9 +19,15 @@ view {
   display: block;
 }
 .right {
+  height: 90px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.right .button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .right .price {
   font-size: 16px;
